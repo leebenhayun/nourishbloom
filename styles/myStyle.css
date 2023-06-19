@@ -1,0 +1,238 @@
+﻿@font-face {
+    font-family: 'Zolina-Bold';
+    src: url('../fonts/Zolina-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Zolina-Regular';
+    src: url('../fonts/Zolina-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Rubik-Light';
+    src: url('../fonts/Rubik-Light.ttf') format('truetype');
+}
+
+body {
+    background-size: cover;
+    font-family: Rubik-Light;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-image: url('../img/bgn.png');
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+/* Navigation Bar */
+#logo {
+    position: absolute;
+    height: 30px;
+    top: 5px;
+    left: 150px;
+}
+
+.navLink {
+    font-size: 18px;
+    font-family: Rubik-Light;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    width: 30px;
+}
+
+.navItem {
+    display: inline-block;
+    width: 70px;
+    margin-top: 10px;
+}
+
+#navBar {
+    position: absolute;
+    left: 540px;
+}
+
+/* Hero Section */
+#heroSection {
+    position: absolute;
+    top: 70px;
+    margin-left: 150px;
+}
+
+.headerPics {
+    position: absolute;
+    left: 554px;
+}
+
+.headerTitle {
+    font-family: Zolina-Regular;
+    font-size: 75px;
+    display: inline-block;
+ /*   width: 580px;*/
+    margin-bottom:20px;
+}
+
+.buttons {
+    display: inline-block;
+    width: 100px;
+    padding: 20px 0px;
+}
+
+.imgBtn {
+    width:100px;
+}
+
+.mainParagraph {
+    display: block;
+    width: 400px;
+    line-height: 30px;
+    font-family: Rubik-Light;
+}
+
+.boldTitle {
+    font-family:Zolina-Bold;
+    display:block;
+}
+
+.linkButton {
+    font-size: 15px;
+    font-family: Rubik-Light;
+    color: black;
+    text-decoration: none;
+    display: inline;
+    position: relative;
+    bottom: 20px;
+    margin: 15px;
+}
+
+
+/*footer*/
+footer {
+    background-color: lightgray;
+    position: absolute;
+    top: 1800px;
+    margin-top: auto;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+    footer p {
+        font-family: Rubik-Light;
+    }
+
+    footer div:first-child p {
+        padding: 0px 35px 30px 35px;
+    }
+
+    footer div:last-child p {
+        text-align: center;
+    }
+
+    footer > div > a > img {
+        height: 10px;
+        padding: 20px 30px;
+    }
+
+    footer div:last-child {
+        display: flex;
+        flex-direction: column;
+        justify-content: center
+    }
+
+#iconRow {
+    flex-direction: row;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    margin: 20px;
+}
+
+/*Home Page*/
+
+#yellowFlower {
+    width:50px;
+    height:50px;
+}
+
+
+/*Face Page*/
+
+/*main*/
+
+main {
+    width: 100%;
+    position: absolute;
+    top: 850px;
+    display: block;
+}
+
+#circleFlower {
+    position: absolute;
+    left: 1357px;
+    height: 200px;
+}
+
+.sectionTitle {
+    font-family: Zolina-Bold;
+    font-size: 40px;
+    width:fit-content;
+}
+
+.sectionPics {
+    position: absolute;
+    height: 400px;
+}
+
+.sectionParagraph {
+    font-family: Rubik-Light;
+    width: 350px;
+    line-height: 30px;
+}
+
+/*Main - New Collection Section*/
+#newCollectionPic {
+    margin-left: 150px;
+}
+
+#newCollectionText {
+    position: absolute;
+    left: 600px;
+    top: 80px;
+}
+
+#newCollection {
+    margin-bottom: 20px;
+}
+
+/*Main - Hyaluronic Acid Section*/
+
+#hyaluronic {
+    position: relative;
+    top: 500px;
+}
+
+#hyaluronicPic {
+    right: 100px;
+}
+
+#hyaluronicText {
+    position: relative;
+    top: 80px;
+    left:500px;
+}
+
+form {
+    position: absolute;
+    margin-top: 1500px;
+    
+}
+
